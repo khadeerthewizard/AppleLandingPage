@@ -1,0 +1,381 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+
+.navbar{
+    background-color: #fafafcb6;
+    backdrop-filter: blur(30px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navbar ul{
+    width: 90%;
+    padding: 14px;
+    display: flex;
+    list-style-type: none;
+    flex-wrap: nowrap;
+    margin: auto;
+    font-size: 12px;
+}
+
+.navbar li{
+    margin: auto;
+    border: none;
+}
+
+.navbar a.navicon{
+    display: none;
+}
+
+.navbar ul li a {
+    padding: 0;
+    color: #525254;
+    font-family: "San Francisco", Arial, sans-serif;    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+}
+
+.navbar ul li a:hover {
+    color: black;
+}
+
+img.logo {
+    margin: 0;
+    padding-left: 10px;
+    width: 1vw;
+}
+
+.storewhole {
+    background-color: #FBFBFC;
+    height: 200px;
+    overflow: auto;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+    padding: 2%;
+    padding-left: 12%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+
+.show-storewhole {
+    visibility: visible;
+    opacity: 100%;
+    z-index: 999;
+}
+
+.storewhole ul {
+    list-style-type: none;
+    padding: 0;
+    padding-bottom: 100px;
+    margin-top: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.storewhole .shop-list h6,
+.storewhole .quick-links h6,
+.storewhole .shopspecial h6 {
+    margin: 0;
+    margin-bottom: 10%;
+    font-family: "San Francisco", Arial, sans-serif;
+    opacity: 50%;
+}
+
+.storewhole .shop-list ul a {
+    font-weight: bold;
+    margin: auto;
+    font-size: large;
+}
+
+.storewhole .quick-links,
+.storewhole .shopspecial {
+    padding-left: 5%;
+}
+
+.storewhole a {
+    text-decoration: none;
+    color: #333;
+    font-size: 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.offer {
+    background-color: white;
+    text-align: center;
+    font-family: "San Francisco", Arial, sans-serif;    margin: auto;
+    margin-top: 40px;
+}
+
+.offer h4 {
+    padding: 1%;
+    margin: auto;
+    font-weight: 400;
+    font-size: 0.85em;
+    letter-spacing: 0;
+}
+
+.offer a {
+    text-decoration: none;
+    color: #4A92DB;
+}
+
+.highlight {
+    text-align: center;
+    background-color: #F5F5F7;
+    height: 500px;
+}
+
+.highlight2{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.highlight h1,
+.highlight h5,
+.highlight p,
+.highlight2 h1,
+.highlight2 h5,
+.highlight2 p {
+    font-size: 1em;
+    margin: auto;
+    font-family: "San Francisco", Arial, sans-serif;}
+
+.highlight h5,
+.highlight2 h5{
+    font-size: 1.5em;
+    font-weight:400;
+    letter-spacing:1px;
+}
+.highlight h1,
+.highlight2 h1 {
+    padding-top: 3%;
+    font-size:3em;
+}
+
+.highlight p,
+.highlight2 p {
+    padding-top: 1%;
+}
+
+.highlight img,
+.highlight2 img{
+    margin-top: 5%;
+    width: 70%;
+}
+
+.highlight p a,
+.highlight2 p a {
+    text-decoration: none;
+    color: #4A92DB;
+    font-weight: 500;
+    margin: auto;
+    padding: 1%;
+}
+
+.highlight p a:hover,
+.highlight2 p a:hover{
+    text-decoration: underline;
+} 
+
+.grid{
+    width: 100%;
+    height: 50vw;
+}
+.visionpro{
+    display: inline;
+    float: left;
+    background-color: #F5F5F7;
+    margin: 0.5vw;
+    float: left;
+    width: 48vw;
+    height: 48vw;
+    overflow: hidden;
+}
+.visionpro img.vision{
+    width: 48vw;
+    height: 48vw;
+    display: block;
+    margin: auto;
+}
+
+.visionpro img.watch{
+    display: block;
+    margin: auto;
+}
+
+.visionpro img.title{
+    position: absolute;
+    display: inline;
+    margin-left: 17vw;
+    width: 14vw;
+    transform: translateY(-520%);
+}
+
+.visionpro a{
+    text-decoration: none;
+    font-family: "San Francisco", Arial, sans-serif;
+
+}
+
+.visionpro a.a{
+    width: 22vw;
+    text-align: center;
+    margin-left: 13vw;
+    transform: translateY(-900%);
+    position: absolute;
+}
+
+.visionpro a.b{
+    position: absolute;
+    width: 20vw;
+    margin-left: 14vw;
+    text-align: center;
+    transform: translateY(-800%);
+}
+
+.visionpro a.c{
+    color: #4A92DB;
+    position: absolute;
+    width: 10vw;
+    text-align: center;
+    margin-left: 19vw;
+    transform: translateY(-600%);
+}
+
+.visionpro a.c:hover{
+    text-decoration: underline;
+}
+
+.visionpro:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+.watch{
+    display: inline;
+    float: left;
+    background-color: #F5F5F7;
+    margin: 0.5vw;
+    float: left;
+    width: 48vw;
+    height: 48vw;
+    overflow: hidden;
+}
+.watch:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+}
+.watch img.vision{
+    width: 48vw;
+    height: 48vw;
+    display: block;
+    margin: auto;
+}
+
+.watch img.watch{
+    display: block;
+    margin: auto;
+}
+
+.watch img.title{
+    display: block;
+    width: 10vw;
+    margin-left: 19vw;
+    transform: translateY(100%);
+    position: absolute;
+}
+
+
+.watch a{
+    text-decoration: none;
+    font-family: "San Francisco", Arial, sans-serif;
+    color: white;
+
+}
+
+.watch a.a{
+    display: block;
+    width: 22vw;
+    transform: translateY(700%);
+    text-align: center;
+    margin-left: 13vw;
+    position: absolute;
+}
+
+.watch a.b{
+    color: #4A92DB;
+    display: block;
+    width: 22vw;
+    margin-left: 13vw;
+    transform:  translateY(900%);
+    text-align: center;
+    position: absolute;
+}
+
+
+.watch a.b:hover{
+    text-decoration: underline;
+}
+
+.apple-footer {
+    background-color: #f7f7f7;
+    padding: 20px;
+    height: 20vw;
+    font-family: "San Francisco", Arial, sans-serif;
+    font-size: smaller;
+  }
+  
+  .footer-links {
+    display: inline;
+    float: left;
+    margin-right: 20px;
+    overflow: hidden;
+  }
+  
+  .footer-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-links ul li a {
+    color: #555;
+    text-decoration: none;
+  }
+  
+  .footer-links ul li a:hover {
+    text-decoration: underline;
+  }
+
+.copyrights{
+    width: 100%;
+    background-color: #F7F7F7;
+    margin-top: 0;
+    height: 100px;
+}
+
+.copyrights p{
+    margin-top: 0;
+    font-size: small;
+    padding: 1vw;
+    float: left;
+}
+
+.copyrights a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 1vw;
+}
